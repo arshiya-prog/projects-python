@@ -86,7 +86,7 @@ def search_password():
             password = data[pascal_website]['password']
             messagebox.showinfo(title= website, message=f"Email: {email}\nPassword: {password}")
         else:
-            messagebox.showerror(title="Error", message=f"No details for {pascal_website} found.")
+            messagebox.showerror(title="Error", message=f"No Details for {pascal_website} Found.")
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = tk.Tk()
